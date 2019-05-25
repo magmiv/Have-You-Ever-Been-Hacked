@@ -1,0 +1,39 @@
+.articles
+   display: flex
+   align-items: center
+   flex-direction: column
+   width: 100%
+
+   .article
+      display: flex
+      align-items: flex-start
+      width: 80vw
+      max-width: 630px
+      margin-bottom: 30px
+      background-color: #ffffff
+      border-radius: 20px
+      box-shadow: 0 0 10px 0px rgba(0,0,0,.3)
+      padding-right: 10px
+
+      @media (max-width: 500px)
+         display: block
+   
+         .text_wrapper
+            margin: 0 30px
+
+      img
+         min-width: 100px
+         width: 100px
+         margin: 20px 20px 0 20px
+
+      .text_wrapper
+         color: #1F1F1F
+         font-family: AsimovIt
+         .p_header
+            font-size: 20px
+         .p_text
+            font-size: 16px
+
+         a
+            color: #1F1F1F
+            font-weight: 900

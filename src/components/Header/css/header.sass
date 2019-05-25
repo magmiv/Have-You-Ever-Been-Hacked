@@ -1,0 +1,70 @@
+.header
+   margin-top: 50px
+   margin-bottom: 20px
+   .form
+      display: flex
+      justify-content: center
+      margin-bottom: 20px
+      input
+         max-width: 640px
+         width: 80vw
+         height: 40px
+         background: #FFFFFF
+         border-radius: 90px
+         border: 2px solid #DCDCDC
+         text-align: center
+         font-size: 20px
+
+      .send
+         display: flex
+         justify-content: center
+         align-items: center
+         width: 46px
+         height: 46px
+         margin-left: -48px
+         svg
+            color: #000
+            font-size: 25px
+            cursor: pointer
+         .load
+            display: none
+            animation: rotate  0.4s infinite linear
+
+         &.loading
+            .search
+               display: none
+            .load
+               display: block
+         
+.error
+   color: red
+   font-family: arial
+
+
+
+@keyframes rotate
+   0%
+      transform: rotate(0deg)
+   100%
+      transform: rotate(360deg)
+
+
+
+.link
+   float: right
+   display: flex
+   align-items: center
+   justify-content: center
+   width: 200px
+   height: 40px
+   margin-bottom: 20px
+   background: #FFFFFF
+   border-radius: 90px
+   border: 2px solid #DCDCDC
+   text-align: center
+   font-size: 20px
+   text-decoration: none
+   font-size: 16px
+   color: #000
+   font-family: AsimovIt
+   outline: none
