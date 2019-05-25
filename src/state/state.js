@@ -1,5 +1,10 @@
 import { rerenderDOM } from "./render";
 
+
+// В IndexHeaderChilds и CheckHeaderChilds хранятся объекты, описывающие потомков в элементе header.
+// Благодаря этому можно легко манипулировать содержимым header на странице (к примеру, добавить еще какой-нибудь блок)
+
+
 let state = {
 
    index: {
